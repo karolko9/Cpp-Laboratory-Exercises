@@ -1,0 +1,45 @@
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:9:5: warning: Variable 'distribution_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    distribution_ = "Ubuntu";
+    ^
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:14:5: warning: Variable 'distribution_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    distribution_ = distribution;
+    ^
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:13:26: warning: Function parameter 'distribution' should be passed by const reference. [passedByValue]
+Linux::Linux(std::string distribution) {
+                         ^
+/tmp/tmpvqapak1r/student/lab2systems/windows.h:56:5: warning: Class 'Windows' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Windows(string version);
+    ^
+/tmp/tmpvqapak1r/student/lab2systems/windows.cpp:19:5: warning: Variable 'version_' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    version_ = version;
+    ^
+/tmp/tmpvqapak1r/student/lab2systems/windows.cpp:18:25: warning: Function parameter 'version' should be passed by const reference. [passedByValue]
+Windows::Windows(string version) {
+                        ^
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:22:0: warning: The function 'add_user' is never used. [unusedFunction]
+size_t Linux::add_user(const string& user_name, const string& password) {
+^
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:26:0: warning: The function 'distribution' is never used. [unusedFunction]
+std::string Linux::distribution(){
+^
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:29:0: warning: The function 'user_home_directory' is never used. [unusedFunction]
+std::string Linux::user_home_directory(size_t user_id){
+^
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:32:0: warning: The function 'open_source_sympathizers' is never used. [unusedFunction]
+size_t Linux::open_source_sympathizers(){
+^
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:35:0: warning: The function 'graphic_environment' is never used. [unusedFunction]
+optional<string> Linux::graphic_environment() const{
+^
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:38:0: warning: The function 'set_graphic_environment' is never used. [unusedFunction]
+void Linux::set_graphic_environment(const string& graphic_environment){
+^
+/tmp/tmpvqapak1r/student/lab2systems/linux.cpp:41:0: warning: The function 'user' is never used. [unusedFunction]
+User Linux::user(size_t user_id){
+^
+/tmp/tmpvqapak1r/student/lab2systems/windows.cpp:8:0: warning: The function 'version' is never used. [unusedFunction]
+string Windows::version() {
+^
+/tmp/tmpvqapak1r/student/lab2systems/windows.cpp:11:0: warning: The function 'activated_systems' is never used. [unusedFunction]
+size_t Windows::activated_systems(){
+^

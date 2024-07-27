@@ -1,0 +1,23 @@
+"C:\Program Files\JetBrains\CLion 2022.3.2\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=C:/Program Files/JetBrains/CLion 2022.3.2/bin/ninja/win/x64/ninja.exe" -G Ninja -S C:\Users\bolek\CLionProjects\pp2-lab1-printing\lab1Functions -B C:\Users\bolek\CLionProjects\pp2-lab1-printing\lab1Functions\cmake-build-debug
+-- The C compiler identification is GNU 11.2.0
+-- The CXX compiler identification is GNU 11.2.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Program Files/JetBrains/CLion 2022.3.2/bin/mingw/bin/g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Katalog do zbudowanego projektu: C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug
+ + Znaleziono nagłówki: C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/printing.h
+ + Znaleziono źródła: C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/main.cpp;C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/printing.cpp
+ + Znaleziono źródła bez main.cpp: C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/printing.cpp
+-- Found Python: C:/Users/bolek/AppData/Local/Programs/Python/Python39/python.exe (found version "3.9.13") found components: Interpreter 
+ + Znaleziono pliki testów: C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/printingTests.cpp
+ + katalog nagłówków: 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug

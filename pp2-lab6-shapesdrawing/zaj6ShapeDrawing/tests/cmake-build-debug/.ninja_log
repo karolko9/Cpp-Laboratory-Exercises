@@ -1,0 +1,10 @@
+# ninja log v5
+16	1829	7032722529304668	lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	17bbb0f9265d3dc0
+10	7388	7032722584747418	lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	e159a49b135f53c6
+5	1758	7039698510789711	CMakeFiles/tests.dir/shapesTests.obj	387f4b717ef2c456
+1758	4185	7039698534965793	tests.exe	795d1509bebe100c
+7391	9234	7032722603364674	lib/libgtest.a	c5fa35cee30bfdf1
+9234	9320	7032722604237145	lib/libgtest_main.a	d2f49104a48b225d
+20	320	7039682203850960	CMakeFiles/tests.dir/C_/Users/bolek/CLionProjects/pp2-lab6-shapesdrawing/zaj6ShapeDrawing/circle.obj	5a7d6ec0a141e66c
+13	133	7039682201963976	CMakeFiles/tests.dir/C_/Users/bolek/CLionProjects/pp2-lab6-shapesdrawing/zaj6ShapeDrawing/rectangle.obj	2bfbdeddeb0f5d36
+12	327	7039698496475372	CMakeFiles/tests.dir/C_/Users/bolek/CLionProjects/pp2-lab6-shapesdrawing/zaj6ShapeDrawing/ShapeComposite.obj	91b636cb43e76a4

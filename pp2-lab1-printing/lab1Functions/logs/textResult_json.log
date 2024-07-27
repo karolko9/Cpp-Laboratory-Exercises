@@ -1,0 +1,92 @@
+{
+  "tests": 7,
+  "failures": 0,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2023-03-04T21:51:26Z",
+  "time": "0s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "PrintingTester",
+      "tests": 7,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2023-03-04T21:51:26Z",
+      "time": "0s",
+      "testsuite": [
+        {
+          "name": "singleInteger",
+          "file": "\/tmp\/tmpzwm4u81m\/student\/lab1Functions\/tests\/printingTests.cpp",
+          "line": 42,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-04T21:51:26Z",
+          "time": "0s",
+          "classname": "PrintingTester"
+        },
+        {
+          "name": "singleDouble",
+          "file": "\/tmp\/tmpzwm4u81m\/student\/lab1Functions\/tests\/printingTests.cpp",
+          "line": 58,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-04T21:51:26Z",
+          "time": "0s",
+          "classname": "PrintingTester"
+        },
+        {
+          "name": "printFraction",
+          "file": "\/tmp\/tmpzwm4u81m\/student\/lab1Functions\/tests\/printingTests.cpp",
+          "line": 74,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-04T21:51:26Z",
+          "time": "0s",
+          "classname": "PrintingTester"
+        },
+        {
+          "name": "printCstring",
+          "file": "\/tmp\/tmpzwm4u81m\/student\/lab1Functions\/tests\/printingTests.cpp",
+          "line": 91,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-04T21:51:26Z",
+          "time": "0s",
+          "classname": "PrintingTester"
+        },
+        {
+          "name": "printNotCopyableObject",
+          "file": "\/tmp\/tmpzwm4u81m\/student\/lab1Functions\/tests\/printingTests.cpp",
+          "line": 108,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-04T21:51:26Z",
+          "time": "0s",
+          "classname": "PrintingTester"
+        },
+        {
+          "name": "printArrayOfNumbers",
+          "file": "\/tmp\/tmpzwm4u81m\/student\/lab1Functions\/tests\/printingTests.cpp",
+          "line": 126,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-04T21:51:26Z",
+          "time": "0s",
+          "classname": "PrintingTester"
+        },
+        {
+          "name": "printWithoutArgument",
+          "file": "\/tmp\/tmpzwm4u81m\/student\/lab1Functions\/tests\/printingTests.cpp",
+          "line": 154,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-03-04T21:51:26Z",
+          "time": "0s",
+          "classname": "PrintingTester"
+        }
+      ]
+    }
+  ]
+}

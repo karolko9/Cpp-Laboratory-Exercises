@@ -1,0 +1,66 @@
+/tmp/tmpv9gnnw22/student/lab3inheritance/position.h:10:5: warning: Struct 'Position' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Position(unsigned x={}, unsigned y={}): x_(x), y_(y)
+    ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/object.h:38:5: warning: Class 'Object' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Object(ObjectType objt, Position post = Position());
+    ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h:23:5: warning: Class 'Enemy' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+    ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/shoot.h:26:5: warning: Class 'Shoot' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Shoot(Direction a, Position b = Position())
+    ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/object.cpp:5:5: warning: Variable 'position1' is assigned in constructor body. Consider performing initialization in initialization list. [useInitializationList]
+    position1 = post;
+    ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.cpp:3:0: warning: The function 'lifePercent' is never used. [unusedFunction]
+float Enemy::lifePercent(){
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.cpp:9:0: warning: The function 'decreaseLife' is never used. [unusedFunction]
+void Enemy::decreaseLife(const int& a){
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:10:0: warning: The function 'signum' is never used. [unusedFunction]
+inline auto signum(int x)
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:57:0: warning: The function 'update' is never used. [unusedFunction]
+void Engine::update()
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:74:0: warning: The function 'movePlayerUp' is never used. [unusedFunction]
+void Engine::movePlayerUp()
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:79:0: warning: The function 'movePlayerDown' is never used. [unusedFunction]
+void Engine::movePlayerDown()
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:84:0: warning: The function 'movePlayerLeft' is never used. [unusedFunction]
+void Engine::movePlayerLeft()
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:88:0: warning: The function 'movePlayerRight' is never used. [unusedFunction]
+void Engine::movePlayerRight()
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:93:0: warning: The function 'playerShoots' is never used. [unusedFunction]
+void Engine::playerShoots()
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:125:0: warning: The function 'isPlayerAlieve' is never used. [unusedFunction]
+bool Engine::isPlayerAlieve() const
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:130:0: warning: The function 'stageWidthCells' is never used. [unusedFunction]
+std::size_t Engine::stageWidthCells() const
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:134:0: warning: The function 'stageHeightCells' is never used. [unusedFunction]
+std::size_t Engine::stageHeightCells() const
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/main.cpp:23:0: warning: The function 'main1' is never used. [unusedFunction]
+int main1()
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/object.cpp:11:0: warning: The function 'type' is never used. [unusedFunction]
+ObjectType Object::type() const{
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/stage.cpp:10:0: warning: The function 'get' is never used. [unusedFunction]
+std::shared_ptr<Object> Stage::get(Position position)
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/stage.cpp:16:0: warning: The function 'set' is never used. [unusedFunction]
+void Stage::set(std::shared_ptr<Object> object, Position position)
+^
+/tmp/tmpv9gnnw22/student/lab3inheritance/stage.cpp:22:0: warning: The function 'isInside' is never used. [unusedFunction]
+bool Stage::isInside(Position position) const
+^

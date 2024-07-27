@@ -1,0 +1,109 @@
+[  7%] Building CXX object tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 14%] Linking CXX static library ../../../lib/libgtest.a
+[ 14%] Built target gtest
+[ 21%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 28%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 28%] Built target gtest_main
+[ 35%] Building CXX object tests/CMakeFiles/tests.dir/engineTests.cpp.o
+[ 50%] Building CXX object tests/CMakeFiles/tests.dir/playerTests.cpp.o
+[ 50%] Building CXX object tests/CMakeFiles/tests.dir/enemyTests.cpp.o
+[ 57%] Building CXX object tests/CMakeFiles/tests.dir/objectTests.cpp.o
+[ 64%] Building CXX object tests/CMakeFiles/tests.dir/__/enemy.cpp.o
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/__/object.cpp.o
+[ 78%] Building CXX object tests/CMakeFiles/tests.dir/shootTests.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/tests.dir/__/engine.cpp.o
+[ 92%] Building CXX object tests/CMakeFiles/tests.dir/__/stage.cpp.o
+In file included from /tmp/tmpv9gnnw22/student/lab3inheritance/enemy.cpp:1:
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h: In constructor ‘Enemy::Enemy(Position, int)’:
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h:21:9: warning: ‘Enemy::maxLife’ will be initialized after [-Wreorder]
+   21 |     int maxLife;
+      |         ^~~~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h:23:90: warning:   base ‘Object’ [-Wreorder]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |                                                                                          ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h:23:5: warning:   when initialized here [-Wreorder]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |     ^~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h:23:20: warning: unused parameter ‘a’ [-Wunused-parameter]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |           ~~~~~~~~~^
+In file included from /tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:3:
+/tmp/tmpv9gnnw22/student/lab3inheritance/player.h: In constructor ‘Player::Player()’:
+/tmp/tmpv9gnnw22/student/lab3inheritance/player.h:23:10: warning: ‘Player::alive’ will be initialized after [-Wreorder]
+   23 |     bool alive;
+      |          ^~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/player.h:25:91: warning:   base ‘Object’ [-Wreorder]
+   25 |     Player() : direction_(Direction::RIGHT), alive(true), Object(ObjectType::OBJECT_PLAYER){}
+      |                                                                                           ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/player.h:25:5: warning:   when initialized here [-Wreorder]
+   25 |     Player() : direction_(Direction::RIGHT), alive(true), Object(ObjectType::OBJECT_PLAYER){}
+      |     ^~~~~~
+In file included from /tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:6:
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h: In constructor ‘Enemy::Enemy(Position, int)’:
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h:21:9: warning: ‘Enemy::maxLife’ will be initialized after [-Wreorder]
+   21 |     int maxLife;
+      |         ^~~~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h:23:90: warning:   base ‘Object’ [-Wreorder]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |                                                                                          ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h:23:5: warning:   when initialized here [-Wreorder]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |     ^~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/enemy.h:23:20: warning: unused parameter ‘a’ [-Wunused-parameter]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |           ~~~~~~~~~^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp: In member function ‘void Engine::playerShoots()’:
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:96:11: warning: enumeration value ‘UPPER_LEFT’ not handled in switch [-Wswitch]
+   96 |     switch(playerDirection()){
+      |           ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:96:11: warning: enumeration value ‘UPPER_RIGHT’ not handled in switch [-Wswitch]
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:96:11: warning: enumeration value ‘DOWNER_LEFT’ not handled in switch [-Wswitch]
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:96:11: warning: enumeration value ‘DOWNER_RIGHT’ not handled in switch [-Wswitch]
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:96:11: warning: enumeration value ‘CENTER’ not handled in switch [-Wswitch]
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:96:11: warning: enumeration value ‘INMOVABLE’ not handled in switch [-Wswitch]
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:96:11: warning: enumeration value ‘UNKNOWN’ not handled in switch [-Wswitch]
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp: In member function ‘void Engine::randEnemies(Position (*)(int, int))’:
+/tmp/tmpv9gnnw22/student/lab3inheritance/engine.cpp:139:37: warning: unused parameter ‘positionGenerator’ [-Wunused-parameter]
+  139 | void Engine::randEnemies(Position (*positionGenerator)(int,int))
+      |                          ~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /tmp/tmpv9gnnw22/student/lab3inheritance/tests/playerTests.cpp:5:
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../player.h: In constructor ‘Player::Player()’:
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../player.h:23:10: warning: ‘Player::alive’ will be initialized after [-Wreorder]
+   23 |     bool alive;
+      |          ^~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../player.h:25:91: warning:   base ‘Object’ [-Wreorder]
+   25 |     Player() : direction_(Direction::RIGHT), alive(true), Object(ObjectType::OBJECT_PLAYER){}
+      |                                                                                           ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../player.h:25:5: warning:   when initialized here [-Wreorder]
+   25 |     Player() : direction_(Direction::RIGHT), alive(true), Object(ObjectType::OBJECT_PLAYER){}
+      |     ^~~~~~
+In file included from /tmp/tmpv9gnnw22/student/lab3inheritance/tests/enemyTests.cpp:5:
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h: In constructor ‘Enemy::Enemy(Position, int)’:
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h:21:9: warning: ‘Enemy::maxLife’ will be initialized after [-Wreorder]
+   21 |     int maxLife;
+      |         ^~~~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h:23:90: warning:   base ‘Object’ [-Wreorder]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |                                                                                          ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h:23:5: warning:   when initialized here [-Wreorder]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |     ^~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h:23:20: warning: unused parameter ‘a’ [-Wunused-parameter]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |           ~~~~~~~~~^
+In file included from /tmp/tmpv9gnnw22/student/lab3inheritance/tests/engineTests.cpp:8:
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h: In constructor ‘Enemy::Enemy(Position, int)’:
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h:21:9: warning: ‘Enemy::maxLife’ will be initialized after [-Wreorder]
+   21 |     int maxLife;
+      |         ^~~~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h:23:90: warning:   base ‘Object’ [-Wreorder]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |                                                                                          ^
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h:23:5: warning:   when initialized here [-Wreorder]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |     ^~~~~
+/tmp/tmpv9gnnw22/student/lab3inheritance/tests/../enemy.h:23:20: warning: unused parameter ‘a’ [-Wunused-parameter]
+   23 |     Enemy(Position a , int b = 10) : life(b), maxLife(b), Object(ObjectType::OBJECT_ENEMY){};    ///////////////// poprawić
+      |           ~~~~~~~~~^
+[100%] Linking CXX executable ../bin/tests
+[100%] Built target tests

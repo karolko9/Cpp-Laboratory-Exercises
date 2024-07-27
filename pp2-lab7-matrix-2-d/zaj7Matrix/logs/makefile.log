@@ -1,0 +1,21 @@
+[ 14%] Building CXX object tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 28%] Linking CXX static library ../../../lib/libgtest.a
+[ 28%] Built target gtest
+[ 42%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 57%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 57%] Built target gtest_main
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/matrixTests.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/tests.dir/__/matrix.cpp.o
+/tmp/tmp_z7j6ea9/student/zaj7Matrix/matrix.cpp:11:6: warning: #warning is a GCC extension
+   11 |     #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym"
+      |      ^~~~~~~
+/tmp/tmp_z7j6ea9/student/zaj7Matrix/matrix.cpp:11:6: warning: #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+/tmp/tmp_z7j6ea9/student/zaj7Matrix/matrix.cpp: In constructor ‘TwoDimensionMatrix::TwoDimensionMatrix(const MatrixElement (*)[2])’:
+/tmp/tmp_z7j6ea9/student/zaj7Matrix/matrix.cpp:24:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+   24 |     for (int i = 0; i < size_; i++) {
+      |                     ~~^~~~~~~
+/tmp/tmp_z7j6ea9/student/zaj7Matrix/matrix.cpp:25:27: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+   25 |         for (int j = 0; j < size_; j++) {
+      |                         ~~^~~~~~~
+[100%] Linking CXX executable ../bin/tests
+[100%] Built target tests

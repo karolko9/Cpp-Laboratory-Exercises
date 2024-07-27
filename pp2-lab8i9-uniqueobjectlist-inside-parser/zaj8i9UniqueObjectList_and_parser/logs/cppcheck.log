@@ -1,0 +1,30 @@
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:100:25: warning: 'operator=' should check for assignment to self to avoid problems with dynamic memory. [operatorEqToSelf]
+ObjectList &ObjectList::operator=(const ObjectList &other) {
+                        ^
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:12:5: warning: Struct 'Node' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    Node(Object* newdata_): data(newdata_), next(nullptr) {}
+    ^
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/stringObject.h:14:5: warning: Class 'StringObject' has a constructor with 1 argument that is not explicit. [noExplicitConstructor]
+    StringObject(std::string s) : text(s) {};
+    ^
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/stringObject.h:14:30: warning: Function parameter 's' should be passed by const reference. [passedByValue]
+    StringObject(std::string s) : text(s) {};
+                             ^
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:18:0: warning: The function 'size' is never used. [unusedFunction]
+size_t ObjectList::size() const {
+^
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:35:0: warning: The function 'push_front' is never used. [unusedFunction]
+void ObjectList::push_front(ObjectList::value_type *newObject) {
+^
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:61:0: warning: The function 'erase_after' is never used. [unusedFunction]
+void ObjectList::erase_after(ObjectList::iterator position) {
+^
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:68:0: warning: The function 'erase' is never used. [unusedFunction]
+void ObjectList::erase(ObjectList::iterator position) {
+^
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:77:0: warning: The function 'front' is never used. [unusedFunction]
+ObjectList::value_type &ObjectList::front() {
+^
+/tmp/tmpjvenn61m/student/zaj8i9UniqueObjectList_and_parser/objectlist.cpp:87:0: warning: The function 'reverse' is never used. [unusedFunction]
+void ObjectList::reverse() noexcept {
+^

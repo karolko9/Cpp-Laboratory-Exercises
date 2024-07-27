@@ -1,0 +1,16 @@
+/tmp/tmpdok0cmgd/student/zaj11PtrCStringVector/PtrCStringVector.cpp:60:10:  [4] (buffer) strcpy:Does not check for buffer overflows when copying to destination [MS-banned] (CWE-120).  Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy easily misused). 
+    std::strcpy(data_[size_], text2Add);
+/tmp/tmpdok0cmgd/student/zaj11PtrCStringVector/PtrCStringVector.cpp:104:31:  [4] (buffer) strcpy:Does not check for buffer overflows when copying to destination [MS-banned] (CWE-120).  Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy easily misused). 
+        if(i<this->size_)std::strcpy(str ,this->data_[i]);
+/tmp/tmpdok0cmgd/student/zaj11PtrCStringVector/PtrCStringVector.cpp:105:44:  [4] (buffer) strcat:Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).  Consider using strcat_s, strncat, strlcat, or snprintf (warning: strncat is easily misused). 
+        if(i<rhs.size_&&i<this->size_)std::strcat(str, rhs.data_[i]);
+/tmp/tmpdok0cmgd/student/zaj11PtrCStringVector/PtrCStringVector.cpp:106:19:  [4] (buffer) strcpy:Does not check for buffer overflows when copying to destination [MS-banned] (CWE-120).  Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy easily misused). 
+        else std::strcpy(str, rhs.data_[i]);
+/tmp/tmpdok0cmgd/student/zaj11PtrCStringVector/PtrCStringVector.cpp:129:23:  [2] (buffer) char:Statically-sized arrays can be improperly restricted, leading to potential overflows or other issues (CWE-119!/CWE-120).  Perform bounds checking, use functions that limit length, or ensure that the size is larger than the maximum possible length. 
+    char **temp = new char *[new_capacity];
+/tmp/tmpdok0cmgd/student/zaj11PtrCStringVector/PtrCStringVector.cpp:59:34:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+    data_[size_] = new char[std::strlen(text2Add)+1];
+/tmp/tmpdok0cmgd/student/zaj11PtrCStringVector/PtrCStringVector.cpp:103:35:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+        char *str = new char[std::strlen(rhs.data_[i]) + std::strlen(this->data_[i]) + 1];
+/tmp/tmpdok0cmgd/student/zaj11PtrCStringVector/PtrCStringVector.cpp:103:63:  [1] (buffer) strlen:Does not handle strings that are not \0-terminated; if given one it may perform an over-read (it could cause a crash if unprotected) (CWE-126).  
+        char *str = new char[std::strlen(rhs.data_[i]) + std::strlen(this->data_[i]) + 1];

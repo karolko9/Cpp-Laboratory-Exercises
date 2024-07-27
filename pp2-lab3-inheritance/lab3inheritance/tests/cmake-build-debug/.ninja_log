@@ -1,0 +1,25 @@
+# ninja log v5
+6	1720	7010559359941409	CMakeFiles/tests.dir/enemyTests.obj	d48420a68963a1fc
+2986	4726	7006632322351253	lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	790d900ab064ce3b
+168	9386	7006632368839931	lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	fefe7a5225fba317
+21	2508	7010484241887682	CMakeFiles/tests.dir/objectTests.obj	2689c62c17ad7e01
+5	1575	7010570366633598	CMakeFiles/tests.dir/engineTests.obj	d27bba921889d714
+6	1463	7010488139483898	CMakeFiles/tests.dir/playerTests.obj	fdbe711dd3484222
+12	1755	7010487586082088	CMakeFiles/tests.dir/shootTests.obj	ea101d87dff14cf8
+9388	11229	7006632387368775	lib/libgtest.a	c5fa35cee30bfdf1
+11229	11314	7006632388243068	lib/libgtest_main.a	d2f49104a48b225d
+752	3731	7010571458872271	tests.exe	56343f7b18ba0f73
+47	249	7011322386878175	CMakeFiles/tests.dir/C_/Users/bolek/CLionProjects/pp2-lab3-inheritance112/lab3inheritance/object.obj	2ccb8ca2855ee60a
+39	1268	7011322397049474	CMakeFiles/tests.dir/C_/Users/bolek/CLionProjects/pp2-lab3-inheritance112/lab3inheritance/main.obj	bf55abccb02e09cb
+1269	2419	7011322408531451	CMakeFiles/tests.dir/C_/Users/bolek/CLionProjects/pp2-lab3-inheritance112/lab3inheritance/engine.obj	6f74c95ba1387539
+2420	2625	7011322410606582	CMakeFiles/tests.dir/C_/Users/bolek/CLionProjects/pp2-lab3-inheritance112/lab3inheritance/enemy.obj	9914fca523d35479
+7	3073	7011322414984685	CMakeFiles/tests.dir/enemyTests.obj	a6169ea93ffa27c
+24	3120	7011322415522056	CMakeFiles/tests.dir/objectTests.obj	a27cf72f057529b6
+31	3162	7011322415988588	CMakeFiles/tests.dir/playerTests.obj	4938655bca5c630b
+250	3251	7011322416875880	CMakeFiles/tests.dir/shootTests.obj	604b9f09553f1d16
+16	3266	7011322417014740	CMakeFiles/tests.dir/engineTests.obj	380325af664b46a3
+2626	4485	7011322429236818	lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.obj	534753ae37dc2a82
+3074	11006	7011322494333703	lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.obj	2fe0284a62f6a65c
+11006	12912	7011322513500655	lib/libgtest.a	c5fa35cee30bfdf1
+12913	13007	7011322514460093	lib/libgtest_main.a	d2f49104a48b225d
+13007	15964	7011322543917933	tests.exe	b0fc974974560edc

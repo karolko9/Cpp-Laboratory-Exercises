@@ -1,0 +1,4 @@
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:34:10:  [4] (buffer) strcpy:Does not check for buffer overflows when copying to destination [MS-banned] (CWE-120).  Consider using snprintf, strcpy_s, or strlcpy (warning: strncpy easily misused). 
+    std::strcpy(temp, data_);
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:35:10:  [4] (buffer) strcat:Does not check for buffer overflows when concatenating to destination [MS-banned] (CWE-120).  Consider using strcat_s, strncat, strlcat, or snprintf (warning: strncat is easily misused). 
+    std::strcat(temp, string.data_);

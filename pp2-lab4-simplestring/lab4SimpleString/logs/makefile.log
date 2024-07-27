@@ -1,0 +1,65 @@
+[ 14%] Building CXX object tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 28%] Linking CXX static library ../../../lib/libgtest.a
+[ 28%] Built target gtest
+[ 42%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 57%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 57%] Built target gtest_main
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/__/simpleString.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/tests.dir/simpleStringTests.cpp.o
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:10:6: warning: #warning is a GCC extension
+   10 |     #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym"
+      |      ^~~~~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:10:6: warning: #warning "Klasa jest do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+In file included from /tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:7:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.h:132:5: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  132 |     char *const c_str() const;
+      |     ^~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.h: In constructor ‘SimpleString::SimpleString(const char*)’:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.h:147:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  147 |         for(int i=0; i<=size_; i++){
+      |                      ~^~~~~~~
+In file included from /tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:7:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.h: In copy constructor ‘SimpleString::SimpleString(const SimpleString&)’:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.h:160:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+  160 |         for(int i=0; i<=text.size_; i++){
+      |                      ~^~~~~~~~~~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp: In member function ‘void SimpleString::assign(const char*)’:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:47:19: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+   47 |     for(int i=0; i<size_; i++){
+      |                  ~^~~~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp: In member function ‘int SimpleString::compare(const SimpleString&, bool) const’:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:61:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+   61 |         for(int i = 0; i < size_; i++) {
+      |                        ~~^~~~~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:64:26: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+   64 |         for(int i = 0; i < string1.size_; i++){
+      |                        ~~^~~~~~~~~~~~~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp: In member function ‘SimpleString SimpleString::substr(size_t, size_t) const’:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:86:21: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+   86 |     for(int i=pos; i<size_; i++){
+      |                    ~^~~~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:83:54: warning: unused parameter ‘count’ [-Wunused-parameter]
+   83 | SimpleString SimpleString::substr(size_t pos, size_t count) const {
+      |                                               ~~~~~~~^~~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp: At global scope:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:97:1: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+   97 | char *const SimpleString::c_str() const {
+      | ^~~~
+In file included from /tmp/tmppd5xdyj_/student/lab4SimpleString/tests/simpleStringTests.cpp:8:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/tests/../simpleString.h:132:5: warning: type qualifiers ignored on function return type [-Wignored-qualifiers]
+  132 |     char *const c_str() const;
+      |     ^~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/tests/../simpleString.h: In constructor ‘SimpleString::SimpleString(const char*)’:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/tests/../simpleString.h:147:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘std::size_t’ {aka ‘long unsigned int’} [-Wsign-compare]
+  147 |         for(int i=0; i<=size_; i++){
+      |                      ~^~~~~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/tests/../simpleString.h: In copy constructor ‘SimpleString::SimpleString(const SimpleString&)’:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/tests/../simpleString.h:160:23: warning: comparison of integer expressions of different signedness: ‘int’ and ‘const size_t’ {aka ‘const long unsigned int’} [-Wsign-compare]
+  160 |         for(int i=0; i<=text.size_; i++){
+      |                      ~^~~~~~~~~~~~
+/tmp/tmppd5xdyj_/student/lab4SimpleString/tests/simpleStringTests.cpp: At global scope:
+/tmp/tmppd5xdyj_/student/lab4SimpleString/tests/simpleStringTests.cpp:30:6: warning: the program should also define ‘void operator delete [](void*, std::size_t)’ [-Wsized-deallocation]
+   30 | void operator delete[](void* memory) noexcept
+      |      ^~~~~~~~
+[100%] Linking CXX executable ../bin/tests
+[100%] Built target tests

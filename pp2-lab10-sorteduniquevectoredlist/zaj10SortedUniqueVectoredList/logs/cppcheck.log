@@ -1,0 +1,18 @@
+/tmp/tmpz4r654_f/student/zaj10SortedUniqueVectoredList/SortedUniqueVectoredList.cpp:199:53: warning: Member variable 'SortedUniqueVectoredList::bucketCount_' is not assigned a value in 'SortedUniqueVectoredList::operator='. [operatorEqVarError]
+SortedUniqueVectoredList &SortedUniqueVectoredList::operator=(const SortedUniqueVectoredList &another)
+                                                    ^
+/tmp/tmpz4r654_f/student/zaj10SortedUniqueVectoredList/SortedUniqueVectoredList.cpp:199:53: warning: Member variable 'SortedUniqueVectoredList::size_' is not assigned a value in 'SortedUniqueVectoredList::operator='. [operatorEqVarError]
+SortedUniqueVectoredList &SortedUniqueVectoredList::operator=(const SortedUniqueVectoredList &another)
+                                                    ^
+/tmp/tmpz4r654_f/student/zaj10SortedUniqueVectoredList/SortedUniqueVectoredList.cpp:199:53: warning: Member variable 'SortedUniqueVectoredList::capacity_' is not assigned a value in 'SortedUniqueVectoredList::operator='. [operatorEqVarError]
+SortedUniqueVectoredList &SortedUniqueVectoredList::operator=(const SortedUniqueVectoredList &another)
+                                                    ^
+/tmp/tmpz4r654_f/student/zaj10SortedUniqueVectoredList/SortedUniqueVectoredList.cpp:103:25: warning: Condition 'bucketCount_==0' is always true [knownConditionTrueFalse]
+    else if(bucketCount_==0){
+                        ^
+/tmp/tmpz4r654_f/student/zaj10SortedUniqueVectoredList/SortedUniqueVectoredList.cpp:99:20: note: Assuming that condition 'bucketCount_>0' is not redundant
+    if(bucketCount_>0){
+                   ^
+/tmp/tmpz4r654_f/student/zaj10SortedUniqueVectoredList/SortedUniqueVectoredList.cpp:103:25: note: Condition 'bucketCount_==0' is always true
+    else if(bucketCount_==0){
+                        ^

@@ -1,0 +1,142 @@
+{
+  "tests": 12,
+  "failures": 0,
+  "disabled": 0,
+  "errors": 0,
+  "timestamp": "2023-04-14T13:55:22Z",
+  "time": "55.803s",
+  "name": "AllTests",
+  "testsuites": [
+    {
+      "name": "ContainerWrapperTester",
+      "tests": 12,
+      "failures": 0,
+      "disabled": 0,
+      "errors": 0,
+      "timestamp": "2023-04-14T13:55:22Z",
+      "time": "55.803s",
+      "testsuite": [
+        {
+          "name": "constructionLotsOfElementsWithDefaultConstructor_expectedNoCrash",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 35,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:22Z",
+          "time": "0.01s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "constructionFromArray_expectedElementsCopied",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 49,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:22Z",
+          "time": "0.001s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "pushBackManyElements",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 60,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:22Z",
+          "time": "0.004s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "pushFrontManyElements",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 75,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:22Z",
+          "time": "0s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "insertingInRandomPositionManyElements",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 90,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:22Z",
+          "time": "1.149s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "randomAccess",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 106,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:23Z",
+          "time": "0.011s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "sorting",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 122,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:23Z",
+          "time": "0.031s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "randomErase",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 141,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:23Z",
+          "time": "1.017s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "count_expectedAllElementsCounted",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 159,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:24Z",
+          "time": "0.002s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "findElement",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 173,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:24Z",
+          "time": "3.958s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "popFront",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 194,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:55:28Z",
+          "time": "49.591s",
+          "classname": "ContainerWrapperTester"
+        },
+        {
+          "name": "popBack",
+          "file": "\/tmp\/tmppqt90rob\/student\/lab5ContainerBenchmark\/tests\/containerWrapperTests.cpp",
+          "line": 214,
+          "status": "RUN",
+          "result": "COMPLETED",
+          "timestamp": "2023-04-14T13:56:18Z",
+          "time": "0.023s",
+          "classname": "ContainerWrapperTester"
+        }
+      ]
+    }
+  ]
+}

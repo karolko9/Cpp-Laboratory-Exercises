@@ -1,0 +1,42 @@
+[
+{
+  "directory": "C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE --std=c++17 -Wall -Wextra -pedantic -g -fdiagnostics-color=always -std=c++17 -o CMakeFiles\\lab1Functions.dir\\main.cpp.obj -c C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\main.cpp",
+  "file": "C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\main.cpp"
+},
+{
+  "directory": "C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE --std=c++17 -Wall -Wextra -pedantic -g -fdiagnostics-color=always -std=c++17 -o CMakeFiles\\lab1Functions.dir\\printing.cpp.obj -c C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\printing.cpp",
+  "file": "C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\printing.cpp"
+},
+{
+  "directory": "C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest/include -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -fdiagnostics-color=always -std=c++17 -o tests\\CMakeFiles\\tests.dir\\printingTests.cpp.obj -c C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\printingTests.cpp",
+  "file": "C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\printingTests.cpp"
+},
+{
+  "directory": "C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest/include -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -fdiagnostics-color=always -std=c++17 -o tests\\CMakeFiles\\tests.dir\\__\\printing.cpp.obj -c C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\printing.cpp",
+  "file": "C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\printing.cpp"
+},
+{
+  "directory": "C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googlemock/include -IC:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googlemock -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest/include -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o tests\\lib\\googlemock\\CMakeFiles\\gmock.dir\\src\\gmock-all.cc.obj -c C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\lib\\googlemock\\src\\gmock-all.cc",
+  "file": "C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\lib\\googlemock\\src\\gmock-all.cc"
+},
+{
+  "directory": "C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googlemock/include -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googlemock -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest/include -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o tests\\lib\\googlemock\\CMakeFiles\\gmock_main.dir\\src\\gmock_main.cc.obj -c C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\lib\\googlemock\\src\\gmock_main.cc",
+  "file": "C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\lib\\googlemock\\src\\gmock_main.cc"
+},
+{
+  "directory": "C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -IC:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest/include -IC:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o tests\\lib\\googletest\\CMakeFiles\\gtest.dir\\src\\gtest-all.cc.obj -c C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\lib\\googletest\\src\\gtest-all.cc",
+  "file": "C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\lib\\googletest\\src\\gtest-all.cc"
+},
+{
+  "directory": "C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/cmake-build-debug",
+  "command": "C:\\PROGRA~1\\JETBRA~1\\CLION2~1.2\\bin\\mingw\\bin\\G__~1.EXE -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest/include -isystem C:/Users/bolek/CLionProjects/pp2-lab1-printing/lab1Functions/tests/lib/googletest --std=c++17 -Wall -Wextra -pedantic -g -fdiagnostics-color=always -Wall -Wshadow -Wno-error=dangling-else -DGTEST_HAS_PTHREAD=0 -fexceptions -Wextra -Wno-unused-parameter -Wno-missing-field-initializers -std=c++17 -o tests\\lib\\googletest\\CMakeFiles\\gtest_main.dir\\src\\gtest_main.cc.obj -c C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\lib\\googletest\\src\\gtest_main.cc",
+  "file": "C:\\Users\\bolek\\CLionProjects\\pp2-lab1-printing\\lab1Functions\\tests\\lib\\googletest\\src\\gtest_main.cc"
+}
+]

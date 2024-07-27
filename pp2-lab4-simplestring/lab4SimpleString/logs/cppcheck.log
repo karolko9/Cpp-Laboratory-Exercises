@@ -1,0 +1,30 @@
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.h:146:9: warning: Class 'SimpleString' does not have a operator= which is recommended since it has dynamic memory/resource allocation(s). [noOperatorEq]
+        data_ = new char[size_ + 1];
+        ^
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:45:5: warning: Mismatching allocation and deallocation: SimpleString::data_ [mismatchAllocDealloc]
+    delete data_;
+    ^
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:31:0: warning: The function 'append' is never used. [unusedFunction]
+void SimpleString::append(const SimpleString& string){
+^
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:40:0: warning: The function 'assign' is never used. [unusedFunction]
+void SimpleString::assign(const char* new_text){
+^
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:53:0: warning: The function 'compare' is never used. [unusedFunction]
+int SimpleString::compare(const SimpleString& string1, bool case_sensitive) const {
+^
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:83:0: warning: The function 'substr' is never used. [unusedFunction]
+SimpleString SimpleString::substr(size_t pos, size_t count) const {
+^
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:97:0: warning: The function 'c_str' is never used. [unusedFunction]
+char *const SimpleString::c_str() const {
+^
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:105:0: warning: The function 'size' is never used. [unusedFunction]
+size_t SimpleString::size() const {
+^
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:108:0: warning: The function 'capacity' is never used. [unusedFunction]
+size_t SimpleString::capacity() const {
+^
+/tmp/tmppd5xdyj_/student/lab4SimpleString/simpleString.cpp:111:0: warning: The function 'data' is never used. [unusedFunction]
+char* SimpleString::data() const {
+^

@@ -1,0 +1,30 @@
+[ 14%] Building CXX object tests/lib/googletest/CMakeFiles/gtest.dir/src/gtest-all.cc.o
+[ 28%] Linking CXX static library ../../../lib/libgtest.a
+[ 28%] Built target gtest
+[ 42%] Building CXX object tests/lib/googletest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o
+[ 57%] Linking CXX static library ../../../lib/libgtest_main.a
+[ 57%] Built target gtest_main
+[ 71%] Building CXX object tests/CMakeFiles/tests.dir/__/printing.cpp.o
+[ 85%] Building CXX object tests/CMakeFiles/tests.dir/printingTests.cpp.o
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:11:6: warning: #warning is a GCC extension
+   11 |     #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym"
+      |      ^~~~~~~
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:11:6: warning: #warning "Funkcje sa do zaimplementowania. Instrukcja w pliku naglowkowym" [-Wcpp]
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp: In function ‘int print(int)’:
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:18:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   18 | }
+      | ^
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp: In function ‘int print(double)’:
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:21:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   21 | }
+      | ^
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp: In function ‘int print(Fraction)’:
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:24:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   24 | }
+      | ^
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp: In function ‘int print(const char*)’:
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:27:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   27 | }
+      | ^
+[100%] Linking CXX executable ../bin/tests
+[100%] Built target tests

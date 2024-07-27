@@ -1,0 +1,15 @@
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:17:5: warning: Found an exit path from function with non-void return type that has missing return statement [missingReturn]
+    std::cout << a << std::endl;
+    ^
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:20:5: warning: Found an exit path from function with non-void return type that has missing return statement [missingReturn]
+    std::cout << a << std::endl;
+    ^
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:23:5: warning: Found an exit path from function with non-void return type that has missing return statement [missingReturn]
+    std::cout << a.numerator_ << "/" << a.denominator_ << std::endl;
+    ^
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:26:5: warning: Found an exit path from function with non-void return type that has missing return statement [missingReturn]
+    std::cout << a << std::endl;
+    ^
+/tmp/tmpzwm4u81m/student/lab1Functions/printing.cpp:16:0: warning: The function 'print' is never used. [unusedFunction]
+int print(int a){
+^
